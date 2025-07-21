@@ -1,0 +1,9 @@
+pip freeze > requirements.txt
+
+pandas
+nltk
+gensim
+scikit-learn
+pyLDAvis
+wordcloud
+matplotlib
