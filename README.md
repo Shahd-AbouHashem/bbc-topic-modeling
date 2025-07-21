@@ -12,12 +12,6 @@ This project performs unsupervised topic modeling using LDA and NMF on a BBC New
 ## 🗃 Dataset
 The dataset contains BBC news articles with associated tags.
 
-## 🚀 Getting Started
-
-```bash
-pip install -r requirements.txt
-
-
 ## Technologies
 
 Python
@@ -31,3 +25,9 @@ NLTK
 Matplotlib
 
 pyLDAvis
+
+
+## 🚀 Getting Started
+
+```bash
+pip install -r requirements.txt
