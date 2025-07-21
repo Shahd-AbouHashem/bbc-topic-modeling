@@ -29,7 +29,41 @@ Matplotlib
 pyLDAvis
 
 
-## 🚀 Getting Started
+## 📁 Dataset
 
-```bash
-pip install -r requirements.txt
+- **Source:** [BBC News Dataset – Kaggle](https://www.kaggle.com/datasets)
+- **Contents:** News articles labeled by topic (business, entertainment, politics, sport, tech)
+
+---
+
+## 🛠️ Tools & Libraries
+
+- Python
+- Gensim (`LDA`)
+- Scikit-learn (`NMF`, `TfidfVectorizer`)
+- pyLDAvis
+- WordCloud
+- NLTK & spaCy (for text preprocessing)
+
+---
+
+## 🧹 Preprocessing Steps
+
+- Lowercasing
+- Tokenization
+- Stopword Removal (`nltk`)
+- Lemmatization (`spaCy`)
+- Dictionary & Corpus creation for LDA
+- TF-IDF matrix for NMF
+
+---
+
+---
+
+## 📊 Visualization Samples
+
+- ✅ pyLDAvis interactive topic views
+- ✅ WordClouds for both LDA and NMF (in 2x2 grid layout)
+
+
+
